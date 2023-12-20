@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>gallery</title>
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../JS/gallery.js" defer></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <ul id="navbar">
+            <li id="home"><a href="./home.html">Home</a></li>
+            <li id="info"><a href="./info.html">Info</a></li>
+            <li id="gall"><a href="#" style="color:orange">Gallery</a></li>
+            <li id="logout"><a href="../loginpage.html">Logout</a></li>
+        </ul>
+        <h1 id="pageHeading">Gallery</h1>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" value="inc" onclick="right()">></button>
+    </div>
+    <div id="bodyOfGallery">
+        <div id="gallery">
+            <img class="images" onclick="openTheImage(0)">
+            <img class="images" onclick="openTheImage(1)">
+            <img class="images" onclick="openTheImage(2)">
+            <img class="images" onclick="openTheImage(3)">
+            <img class="images" onclick="openTheImage(4)">
+            <img class="images" onclick="openTheImage(5)">
+            <img class="images" onclick="openTheImage(6)">
+            <img class="images" onclick="openTheImage(7)">
+            <img class="images" onclick="openTheImage(8)">
+            <img class="images" onclick="openTheImage(9)">
+            <img class="images" onclick="openTheImage(10)">
+            <img class="images" onclick="openTheImage(11)">
+            <img class="images" onclick="openTheImage(12)">
+            <img class="images" onclick="openTheImage(13)">
+            <img class="images" onclick="openTheImage(14)">
+            <img class="images" onclick="openTheImage(15)">
+        </div>
+    </div>
+    <div id="bigImage" style="display: none;">
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <img id="bigimg">
+    </div>
+</body>
+</html>

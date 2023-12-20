@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#body_of_page{
+    width: 100%;
+    height: 638vh;
+    background-image: linear-gradient(rgb(39,39,52),black);
+    position: absolute;
+    z-index: -1;
+}
+#container_1,#container_2,#container_3,#container_4{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+}
+#detailsofcontainer1,#detailsofcontainer3{
+    width: 500px;
+    height: 400px;
+    /*background-color: antiquewhite;*/
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+}
+#detailsofcontainer2,#detailsofcontainer4{
+    width: 500px;
+    height: 400px;
+    /*background-color: antiquewhite;*/
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    right: 20px;
+}
+#heading1,#heading2,#heading3,#heading4{
+    position: absolute;
+    top: 3vh;
+}
+#about1,#about2,#about3,#about4{
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+}
+#anglecut1,#anglecut3{
+    width: 100%;
+    height: 120vh;
+    /*background-color: antiquewhite;*/
+    clip-path: polygon(65% 0, 100% 0%, 100% 100%, 0% 100%);
+    box-shadow: 0px 0px 15px black;
+}
+#anglecut2,#anglecut4{
+    width: 100%;
+    height: 120vh;
+    /*background-color: antiquewhite;*/
+    clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+    box-shadow: 0px 0px 15px black;
+}
+#video1,#video2,#video3,#video4{
+    width: 100%;
+    height: 80vh;
+    /*background-color: yellow;*/
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid1,#vid2,#vid3,#vid4{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    border-top: 15px solid rgb(39,39,52);
+    transition: transform 0.5s;
+}
+#vid1:hover, #loc1:hover,#vid2:hover, #loc2:hover,#vid3:hover, #loc3:hover,#vid4:hover, #loc4:hover{
+    transform: scale(1.3);
+}
+#loc1,#loc2,#loc3,#loc4{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    right: 0px;
+    transition: transform 0.5s;
+}
+#container_1{
+    top: 110vh;
+}
+#heading1{
+    left: 10vw;
+}
+#loc1{
+    background-image: url("../assets/Images/hydmap.jfif");
+}
+#container_2{
+    top: 240vh;
+}
+#heading2{
+    left: 7vw;
+}
+#loc2{
+    background-image: url("../assets/Images/swizmap1.jpg");
+}
+#container_3{
+    top: 370vh;
+}
+#heading3{
+    left: 12vw;
+}
+#loc3{
+    background-image: url("../assets/Images/japanmap.jpg");
+    background-size: 100% 100%;
+}
+#container_4{
+    top: 500vh;
+}
+#heading4{
+    left: 8vw;
+}
+#loc4{
+    background-image: url("../assets/Images/dubaimap.jfif");
+    background-size: 100% 100%;
+}
+
+/*footer code*/
+
+#footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 630vh;
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+#social{
+    float: right;
+}
+#cpr{
+    padding-left: 20px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+.sociallink{
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.sociallink:hover{
+    color: lime;
+}
+#up{
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 60px;
+    right: 24px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
